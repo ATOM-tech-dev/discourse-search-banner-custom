@@ -42,3 +42,7 @@ special_style:
   choices:
     - "big search, no text"
     - "basic style (default)"
+
+text_below_search_button:
+  default: "text below search button"
+  description: text below search button
