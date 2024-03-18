@@ -87,13 +87,18 @@ $max-width: 600px;
     text-align: center;
   }
 
+  p {
+    font-size: 18px;
+    line-height: 1.8;
+  }
+
   .btn.search-icon:not(.has-search-button-text) {
     z-index: 2;
     background: transparent;
     line-height: 1;
     color: var(--primary-medium);
     height: 100%;
-    padding-right: 0.25em;
+    padding-right: 0.1em;
     position: absolute;
     .discourse-no-touch & {
       &:hover {
