@@ -24,7 +24,7 @@
           {{/if}}
         </div>
         <PluginOutlet @name="search-banner-below-input" />
-        <p>{{theme-setting 'text_below_search_button'}}</p>
+        <p>{{html-safe (theme-i18n "search_banner.description")}}</p>
       </div>
     </div>
   </div>
